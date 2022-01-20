@@ -14,7 +14,7 @@ if (process.argv.length === 4) {
       if (error) {
         throw error;
       }
-      console.log(`Downloaded and saved ${body.length} bytes to ${filePath}`);
+      console.log(`\nDownloaded and saved ${body.length} bytes to ${filePath}\n`);
     });
   });
 }
